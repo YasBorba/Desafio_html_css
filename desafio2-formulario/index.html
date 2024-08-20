@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <form action="">
+
+        <h1 class="form">🗒️Formulario de interação</h1>
+
+        Digite o seu nome <input type="text" name="nome"placeholder="digite aqui" required>
+        <br>
+        <br>
+        Digite o seu endereço <input type="text" name="endereço" value="Rua e número">
+        <br>
+        <br>
+        Digite o Bairro <input type="text" name="bairro" value="Bairro">
+        <br>
+        <br>
+        Digite a Cidade <input type="text" name="cidade" value="Santo André">
+        <br>
+        <br>
+        Selecione sua data de nascimento
+        <input type="date" name="data">
+        <p>Entre com a sua mensagem</p> <textarea rows="8" cols="50" maxlength="500">digite até 500 caracteres</textarea>
+        <br>
+        <br>
+        <p>Escolha o(s) modelo(s) de trabalho:</p>
+        <ul style="list-style: disc;">
+        <li>
+            <input type="checkbox" name="presencial" id=""> Presencial
+        </li>
+        <li>
+            <input type="checkbox" name="remotol" id=""> Remotol
+        </li>
+        <li>
+            <input type="checkbox" name="Hibrido" id=""> Hibrido
+        </li>
+        </ul>
+        <p>Escolha o período de trabalho:</p>
+        <ul>
+            <li>
+                <input type="radio" name="manha" id=""> Manhã
+            </li>
+            <li>
+                <input type="radio" name="Tarde" id=""> Tarde
+            </li>
+            <li>
+                <input type="radio" name="noite" id=""> Noite
+            </li>
+        </ul>
+        <p>Escolha um estado:</p>
+            <select name="estado">
+                <option value="valor1">São Paulo</option>
+                <option value="valor2">Rio de Janeiro</option>
+                <option value="valor3">Espirito Santo</option>
+                <option value="valor4">Bahia</option>
+                <option value="valor5">Minas Gerais</option>
+            </select>
+            <br>
+            <br>
+        <input type="checkbox" name="termos" id="">Aceita os termos de uso do site
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="Limpar os campos">
+
+
+
+
+    </form>
+    
+</body>
+</html>
